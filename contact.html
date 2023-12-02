@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Swiss Utopia Resorts</title>
+        <meta name="author" content="Greg McNally">
+        <meta name="description" content="Beautiful Heaven Like Resorts in the Swiss Alps">
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="images/favicon2.ico" type="image/x-icon">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+        <!-- <link rel="stylesheet" href="stylescopy.css"> -->
+    </head>
+    <body>
+        <header>
+            <section class="header-intro">
+                <h1><a href="index.html">Swiss Utopia Resorts</a></h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Accommodations</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>
+                <img src="images/swiss-valley.jpg" alt="Beautiful view of a swiss-valley with mountains in the back, blue sky, and a river running through the valley. The valley is green with evergreen trees " width="1440" height="560">     
+        </header>
+        <main id="contacts_main">
+            <section id="contacts">
+                <h2>Contact Us</h2> 
+                <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!</p>
+                <p>Required fields marked with a *</p>
+                <img src="images/swiss-sunset.jpg" alt="Beautiful sunset over the Swiss Mountains with lake front view" width="710" height="270">
+            </section>
+            
+            <form id="myform" action="https://wp.zybooks.com/form-viewer.php" method="POST">
+                <div id="part1">
+                    <label for="full-name"> <span class="required">*</span>Full Name (first and last)</label>
+                    <input type="text" name="full-name" id="full-name" required>
+                   
+                    <label for="my-email"> <span class="required">*</span>Email Address (address@site.com):</label>
+                    <input type="email" name="my-email" id="my-email" required>
+                    
+                    <label for="my-phone"> <span class="required">*</span>Phone Number (include area code):</label>
+                    <input type="tel" name="my-phone" id="my-phone" required>               
+                    
+                </div>
+                <div id="part2">
+                    <fieldset>
+                        <legend><span class="required">*</span>Preferred Method of Contact</legend>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-email" value="prefer-email" required checked>
+                        <label for="pref-email">Email</label>
+                                    
+                        <input type="radio" name="contact-pref" id="pref-phone" value="prefer-phone">
+                        <label for="pref-phone">Phone</label>
+                                    
+                    </fieldset>
+                    <label id="label-comments" for="comments">Comments</label>
+                    <textarea name="comments" id="comments"></textarea>
+                    <input type="submit" name="mySubmit" id="mySubmit" value="Submit Form">
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div>
+                <p>Copyright ©2023 - Swiss Utopia Resorts</p><br>
+                <p>This site is for educational purposes only</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+   
